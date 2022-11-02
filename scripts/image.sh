@@ -5,6 +5,28 @@ do
         c) coin=${OPTARG};;
     esac
 done
+
+
+if ! [ -x "$(command -v ffdmpeg)" ]; then
+clear
+  echo 'Error: ffmpeg is not installed.'
+  echo 'We are going to install it now'
+  sleep 5
+  apt install ffmpeg
+fi
+
+if ! [ -x "$(command -v screen)" ]; then
+clear
+  echo 'Error: screen is not installed.'
+  echo 'We are going to install it now'
+  sleep 5
+  apt install screen
+fi
+
+
+
+
+
 clear
 echo "Coin selected: $coin";
  
