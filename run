@@ -1,0 +1,14 @@
+#!/bin/bash
+while getopts c:r: flag
+do
+    case "${flag}" in
+        c) coin=${OPTARG};;
+        r) rtmp=${OPTARG};;
+    esac
+done
+echo "Coin selected: $coin";
+
+
+screen -S $coin-price -dm sh ./scripts/price.sh -c $coin
+screen -S $coin-image -dm sh ./scripts/image.sh -c $coin
+screen -S $coin-stream -dm sh ./scripts/stream.sh -c $coin -r $rtmp
