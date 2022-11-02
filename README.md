@@ -2,7 +2,7 @@
 
 Shell script to create live-streams with the current crypto price.
 
-Example
+Example<br>
 Ethereum: https://youtu.be/5xU7mg2mbzI <br>
 Bitcoin: https://youtu.be/mwfD19EQHYM
 
