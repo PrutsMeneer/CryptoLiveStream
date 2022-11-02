@@ -1,6 +1,7 @@
 # CryptoLiveStream
 
-Shell script to create live-streams with the current crypto price.
+Script to create live-streams with the current cryptocurrency price, using ffmpeg.<br>
+Tested on Debian Linux.
 
 Example<br>
 Ethereum: https://youtu.be/5xU7mg2mbzI <br>
