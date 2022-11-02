@@ -8,7 +8,6 @@ Bitcoin: https://youtu.be/mwfD19EQHYM
 This can be handy if you want to push the price of bitcoin (or any other crpyto) to a Google Chromecast enabled device.
 Just stream to YouTube and cast to your TV!
 
-<br>
 How to install<br>
 - The script will check if ffmpeg and screen are installed, and if not it will install <br>
 - Manually install wscat using: https://github.com/websockets/wscat
