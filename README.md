@@ -3,7 +3,7 @@
 Shell script to create live-streams with the current crypto price.
 
 Example
-Ethereum: https://youtu.be/5xU7mg2mbzI 
+Ethereum: https://youtu.be/5xU7mg2mbzI <br>
 Bitcoin: https://youtu.be/mwfD19EQHYM
 
 This can be handy if you want to push the price of bitcoin (or any other crpyto) to a Google Chromecast enabled device.
