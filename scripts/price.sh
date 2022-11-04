@@ -9,6 +9,6 @@ done
 echo "Coin selected: $coin";
 
 while true; do
-./prices/wscat-build -c wss://ws.coincap.io/prices?assets=$coin > ./prices/$coin-price
+wscat -c wss://ws.coincap.io/prices?assets=$coin > ./prices/$coin-price
 done
 
